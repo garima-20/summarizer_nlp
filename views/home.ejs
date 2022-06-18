@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p id="heading">TEXT SUMMARIZATION</p>
+
+        <form action="/select-way" method = "post">
+            <p class="button_head">For extracting important sentences from text click below</p>
+            <input class="button" type="submit" name="way" value="Extract important sentence">
+            <p class="button_head">For summarizing text click below</p>
+            <input class="button" type="submit" name="way" value="Summarize">
+        </form>
+
+        <h2>Give URL of wikipedia website you want to summarize</h2>
+        
+        <form action="/submit-url" method="post">
+            <input id="input_url" type="text" name="url" placeholder="Type URL...">
+            <input class="button" type="submit" placeholder="submit">
+        </form>
+    </body>
+</html>

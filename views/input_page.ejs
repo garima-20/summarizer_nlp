@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>
+            <%= title %>
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p id="heading">TEXT SUMMARIZATION</p>
+        <h1>Enter Text :</h1>
+        <form action="/submit-text" method="post">
+            <textarea name="Text" id="Text" cols="100" rows="20"></textarea>
+            <br>
+            <input class="button" type="Submit" value="Summarize">
+        </form>
+    </body>
+</html>

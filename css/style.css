@@ -1,0 +1,35 @@
+body{
+    padding: 30px;
+}
+
+.button_head{
+    font-size: 20px;
+}
+
+#heading {
+    padding: 10px;
+    text-align: center;
+    color: #a80e7a;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  
+.button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+#input_url {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  } 
